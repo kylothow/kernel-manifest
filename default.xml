@@ -1,5 +1,6 @@
 <manifest>
-  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <remote  name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
+  <remote  name="github" fetch=".." />
   <default revision="android-msm-crosshatch-4.9-android10"
     remote="aosp" sync-j="4" />
 
